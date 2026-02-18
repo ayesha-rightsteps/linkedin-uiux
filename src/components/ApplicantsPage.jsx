@@ -147,6 +147,7 @@ function ApplicantsPage() {
                 <div>JEANETTE</div>
                 <div>MANISH</div>
                 <div>AYESHA</div>
+                <div>NAYEDA</div>
               </div>
               <div className="table-body">
                 {sortedApplicants.map(applicant => {
@@ -187,6 +188,13 @@ function ApplicantsPage() {
                         {decisions.AYESHA && (
                           <div className={`decision-badge ${decisions.AYESHA.toLowerCase().replace(' ', '-')}`}>
                             {decisions.AYESHA === 'Considering' ? '✓' : '✗'}
+                          </div>
+                        )}
+                      </div>
+                      <div className="col-nayeda">
+                        {decisions.NAYEDA && (
+                          <div className={`decision-badge ${decisions.NAYEDA.toLowerCase().replace(' ', '-')}`}>
+                            {decisions.NAYEDA === 'Considering' ? '✓' : '✗'}
                           </div>
                         )}
                       </div>

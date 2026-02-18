@@ -145,6 +145,7 @@ function ApplicantDetail({ applicant }) {
                       <option value="JEANETTE">JEANETTE</option>
                       <option value="MANISH">MANISH</option>
                       <option value="AYESHA">AYESHA</option>
+                      <option value="NAYEDA">NAYEDA</option>
                     </select>
                   </div>
                   

@@ -17,6 +17,7 @@ A professional web application for managing LinkedIn job applicants with team co
 - JEANETTE
 - MANISH
 - AYESHA
+- NAYEDA
 
 ## Tech Stack
 
